@@ -55,7 +55,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="text-whiteBetter font-semibold absolute bottom-10">
+            <div className="text-whiteBetter font-semibold absolute bottom-10 ">
                 Contattaci {" "}
                 <Link
                     target="_blank"
