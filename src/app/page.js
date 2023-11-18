@@ -23,7 +23,7 @@ export default function Home() {
                                 <div className="flex gap-x-4">
                                     <img src="./icon-list.svg" alt="icon" />
                                     <p>
-                                        Aggiornamenti suall G-Card
+                                        Aggiornamenti sulla G-Card
                                     </p>
                                 </div>
                                 <div className="flex gap-x-4">
@@ -55,13 +55,13 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="text-whiteBetter font-semibold absolute bottom-10 ">
+            <div className="hidden text-whiteBetter font-semibold absolute bottom-10">
                 Contattaci {" "}
                 <Link
                     target="_blank"
                     href="mailto:info@ghelacard.com"
                     passHref={true}
-                    className="underline text-sky-500"
+                    className="underline text-sky-500 "
                 >
                     info@ghelacard.com
                 </Link>
